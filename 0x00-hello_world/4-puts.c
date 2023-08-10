@@ -1,9 +1,7 @@
 #include <stdio.h>
 /**
-* main function
-*
-* PRINTING \"Programming is like building a multilingual puzzle\"
-*
+* main - 4-puts.c
+* Programming is like building a multilingual puzzle
 * Return: 0;
 */
 int main(void)
