@@ -1,7 +1,6 @@
 #include <stdio.h>
-/*Main Function
- * printing the size of \" size of char int long int long long int float
- *
+/**
+* main - 6-size.c
 * Return: 0
 */
 int main(void)
