@@ -1,0 +1,4 @@
+#!/bin/bash
+git add .
+git commit -m "Variables_if_else_while"
+git push
