@@ -8,15 +8,15 @@
 */
 int main(void)
 {
-	unsigned long previous = 0, curr = 1, next, sum = 0;
+	unsigned long previous = 0, current = 1, next, sum = 0;
 
-	while (curr <= 4000000)
+	while (current <= 4000000)
 	{
-		next = prev + curr;
-		previous = curr;
-		curr = next;
-		if (curr % 2 == 0)
-			sum += curr;
+		next = previous + current;
+		previous = current;
+		current = next;
+		if (current % 2 == 0)
+			sum += current;
 	}
 	printf("%lu\n", sum);
 
