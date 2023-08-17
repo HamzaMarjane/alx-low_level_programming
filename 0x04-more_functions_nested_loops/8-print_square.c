@@ -1,32 +1,30 @@
 #include "main.h"
 
 /**
- * print_square - printing a square in the terminal.
+ * print_square - entry point
  *
- * Return: 0 always
- *
- *
+ * Description: Prints square
+ *@size: size of square
+ * Return: void
  */
 
 void print_square(int size)
-
 {
-
-	int x, y;
+	int row, column;
 
 	if (size <= 0)
 	{
-	_putchar('\n');
+		_putchar('\n');
 	}
 	else
 	{
-	for (x = 0; x < size; x++)
-	{
-	for (y = 0; y < size; y++)
-	{
-	_putchar(35);
-	}
-	_putchar('\n');
-	}
+		for (row = 1; row <= size; row++)
+		{
+			for (column = 1; column <= size; column++)
+			{
+				_putchar('#');
+			}
+			_putchar('\n');
+		}
 	}
 }
