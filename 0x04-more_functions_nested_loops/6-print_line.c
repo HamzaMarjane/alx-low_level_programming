@@ -1,30 +1,27 @@
 #include "main.h"
 
 /**
- * print_line - Straight lines in terminal.
+ * print_line - entry point
  *
- * Return: 0 always
- *
- *
- *
+ * Description: Prints lines
+ *@n: number of lines
+ * Return: void
  */
 
 void print_line(int n)
-
 {
-
-	int x;
+	int num_lines;
 
 	if (n <= 0)
 	{
-	_putchar('\n');
+		_putchar('\n');
 	}
 	else
 	{
-	for (x = 0; x < n; x++)
-	{
-	_putchar(95);
-	}
-	_putchar('\n');
+		for (num_lines = 1; num_lines <= n; num_lines++)
+		{
+			_putchar('_');
+		}
+		_putchar('\n');
 	}
 }
