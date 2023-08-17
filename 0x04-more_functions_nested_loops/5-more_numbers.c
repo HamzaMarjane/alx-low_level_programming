@@ -10,17 +10,17 @@
 
 void more_numbers(void)
 {
-int sec;
-int sec1;
-for (sec1 = 0; sec1 < 10; sec1++)
+int mrj;
+int mrj1;
+for (mrj1 = 0; mrj1 < 10; mrj1++)
 {
-for (sec = 0; sec <= 14; sec++)
+for (mrj = 0; mrj <= 14; mrj++)
 {
-if (sec > 9)
+if (mrj > 9)
 {
-_putchar(sec / 10 + '0');
+_putchar(mrj / 10 + '0');
 }
-_putchar(sec % 10 + '0');
+_putchar(mrj % 10 + '0');
 }
 _putchar('\n');
 }
