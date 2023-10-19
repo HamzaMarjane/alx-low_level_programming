@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Add all files to the staging area
+git add .
+
+# Commit with the specified message
+git commit -m "HARDTHINGS"
+
+# Push the changes to the remote repository
+git push
+
