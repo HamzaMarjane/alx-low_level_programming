@@ -9,6 +9,8 @@
  * Description: singly linked list node structure
  * for Holberton project
  */
+#include <stdio.h>
+
 typedef struct listint_s
 {
 	int n;
